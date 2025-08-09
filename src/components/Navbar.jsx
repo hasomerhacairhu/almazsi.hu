@@ -6,6 +6,7 @@ const NAV = [
   { href: '#goals', label: 'Céljaink' },
   { href: '#activities', label: 'Tevékenységünk' },
   { href: '#history', label: 'Előtörténet' },
+  { href: '#reports', label: 'Beszámolók' },
   // Hírek menüpont külső linkre mutat
   { href: 'https://somer.hu/category/hirek/', label: 'Hírek', external: true },
   { href: '#support', label: 'Támogatás' },
