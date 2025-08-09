@@ -1,21 +1,12 @@
 import React from 'react'
-import { HeartIcon, UserGroupIcon, BookOpenIcon, ShieldCheckIcon } from '@heroicons/react/24/outline'
-import GOALS from '../content/goals.json'
-
-const ICONS = {
-  heart: HeartIcon,
-  users: UserGroupIcon,
-  book: BookOpenIcon,
-  shield: ShieldCheckIcon,
-}
+import GOALS from '../content/goals.js'
 
 export default function Goals() {
   return (
     <section className="mx-auto max-w-6xl px-4 py-4">
       <h2 className="text-2xl md:text-3xl font-semibold">Céljaink</h2>
       <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {GOALS.map(({ title, icon }) => {
-          const Icon = ICONS[icon] || HeartIcon
+  {GOALS.map(({ title, Icon }) => {
           return (
             <div key={title} className="group rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:shadow-md">
               <div className="flex items-start gap-4">

@@ -1,0 +1,21 @@
+// Activities content migrated from JSON to JS for flexibility.
+const ACTIVITIES = [
+  {
+    title: 'Heti foglalkozások',
+    desc: 'Megalakulásunk óta támogatjuk a Hasomer Hacair tevékenységét: heti rendszeres foglalkozások (peulák), közösségi események; tanulás és játék korosztályokra szabva.'
+  },
+  {
+    title: 'Táborok és képzések',
+    desc: 'Táborok, képzések és utazások megvalósításához nyújtunk segítséget – hazai és külföldi programokban egyaránt.'
+  },
+  {
+    title: 'Megemlékezések és sport',
+    desc: 'Megemlékezéseken támogatjuk a Cionista Szövetség, sporteseményeken a MACABI Hungária rendezvényeit.'
+  },
+  {
+    title: 'Nemzetközi kapcsolatok',
+    desc: 'Segítséget nyújtunk a külföldi képzéseken, táborokon résztvevő fiataloknak; az identitást és Izraelhez való kötődést erősítő programokat is támogatjuk.'
+  }
+]
+
+export default ACTIVITIES

@@ -1,5 +1,5 @@
 import React from 'react'
-import reports from '../content/reports.json'
+import reports from '../content/reports.js'
 
 export default function AnnualReports() {
 return (
