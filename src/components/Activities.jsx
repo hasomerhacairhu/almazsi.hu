@@ -1,4 +1,4 @@
-import { GALLERY } from '../config/gallery'
+import { GALLERY } from '../content/gallery.js'
 import React, { useState } from 'react'
 import Lightbox from 'yet-another-react-lightbox'
 import ITEMS from '../content/activities.js'

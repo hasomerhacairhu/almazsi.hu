@@ -1,5 +1,5 @@
 import React from 'react'
-import { GALLERY } from '../config/gallery'
+import { GALLERY } from '../content/gallery'
 
 export default function Hero() {
   const heroImg = GALLERY.hero

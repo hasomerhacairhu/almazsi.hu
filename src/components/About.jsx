@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { GALLERY } from '../config/gallery'
+import { GALLERY } from '../content/gallery'
 import Lightbox from 'yet-another-react-lightbox'
 import aboutHtml from '../content/about.html?raw'
 

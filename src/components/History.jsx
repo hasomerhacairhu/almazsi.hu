@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Modal from './Modal'
-import { GALLERY } from '../config/gallery'
+import { GALLERY } from '../content/gallery'
 import historyHtml from '../content/history.html?raw'
 
 export default function History() {
