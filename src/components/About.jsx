@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { GALLERY } from '../config/gallery'
 import Lightbox from 'yet-another-react-lightbox'
-import 'yet-another-react-lightbox/styles.css'
 import aboutHtml from '../content/about.html?raw'
 
 export default function About() {
