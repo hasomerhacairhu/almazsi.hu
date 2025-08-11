@@ -24,17 +24,17 @@ export default function SupportContact() {
   }
   return (
     <section className="mx-auto max-w-6xl px-4 py-4">
-      <h2 className="text-2xl md:text-3xl font-semibold mb-2">
+      <h2 className="text-2xl md:text-3xl font-semibold">
         Támogatás és kapcsolat
       </h2>
-      <p className="mb-4 text-slate-700">
+      <p className="mt-3 mb-4 text-slate-700">
         Az Alapítvány a Magyar Zsidó Ifjúságért a magyar zsidó fiatalok identitását és közösségi életét erősíti oktatási, kulturális és szociális programokkal. Támogatásoddal táborokat, kulturális eseményeket és ifjúsági projekteket valósíthatunk meg.
         <br />
         Ahhoz, hogy mindezt folytatni tudjuk, szükségünk van a támogatásodra – akár egyszeri, akár rendszeres adomány formájában. Csatlakozz hozzánk, és legyél része egy élő, aktív és befogadó közösség fenntartásának!
       </p>
 
       <div className="mb-8">
-        <div className="bg-white rounded-lg shadow p-6 border border-slate-200 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+  <div className="bg-white rounded-xl shadow p-6 border border-slate-200 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div>
             <div className="text-lg font-bold text-brand mb-1">
               Alapítvány a Magyar Zsidó Ifjúságért
@@ -52,7 +52,7 @@ export default function SupportContact() {
               <span className="font-semibold">Nyilvántartási szám:</span> 01-01-0006912
             </div>
           </div>
-          <div className="bg-slate-50 rounded-lg p-4 border border-slate-200 w-full md:w-[420px] md:shrink-0">
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 w-full md:w-[420px] md:shrink-0">
             <div className="text-sm text-slate-600 mb-1">Bankszámla</div>
             <div className="font-mono font-semibold text-lg mb-1">
               HUF 11701011-21201000
@@ -75,7 +75,7 @@ export default function SupportContact() {
 
       {/* SZJA 1% kártya */}
       <div className="mb-8">
-        <div className="bg-white rounded-lg shadow p-6 border border-slate-200 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+  <div className="bg-white rounded-xl shadow p-6 border border-slate-200 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div>
             <h2 className="text-lg font-bold text-brand mb-1">
               Ajánld fel adód 1%-át – támogasd a jövő közösségét!
@@ -87,14 +87,14 @@ export default function SupportContact() {
               Az 1% felajánlása neked semmibe sem kerül, számunkra viszont hatalmas segítség!
             </p>
           </div>
-          <div className="bg-slate-50 rounded-lg p-4 border border-slate-200 w-full md:w-[420px] md:shrink-0">
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 w-full md:w-[420px] md:shrink-0">
             <div className="text-sm text-slate-600 mb-1">Adószámunk</div>
             <div className="font-mono font-semibold text-2xl md:text-3xl tracking-wider select-all">{TAX_ID}</div>
             <div className="mt-3 flex items-center gap-3">
               <button
                 type="button"
                 onClick={copyTaxId}
-                className="inline-flex items-center gap-2 px-3 py-2 rounded-md bg-brand text-white hover:bg-brand-dark text-sm"
+                className="inline-flex items-center gap-2 px-3 py-2 rounded-md bg-brand text-white hover:bg-brand-dark text-sm shadow-sm"
               >
                 Másold az adószámot
               </button>
@@ -107,7 +107,7 @@ export default function SupportContact() {
       </div>
 
       <div className="mb-8">
-        <div className="bg-white rounded-lg shadow p-6 border border-slate-200 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+  <div className="bg-white rounded-xl shadow p-6 border border-slate-200 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div>
             <div className="text-lg font-bold text-brand mb-1">
               Kapcsolatfelvétel
@@ -119,7 +119,7 @@ export default function SupportContact() {
               Ha kérdésed van, vagy szeretnél többet megtudni programjainkról, írj nekünk bátran.
             </div>
           </div>
-          <div className="bg-slate-50 rounded-lg p-4 border border-slate-200 w-full md:w-[420px] md:shrink-0">
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 w-full md:w-[420px] md:shrink-0">
             <div className="text-sm text-slate-600 mb-1">E-mail</div>
             <a
               href="mailto:hello@almazsi.hu"
@@ -137,7 +137,7 @@ export default function SupportContact() {
       <div className="flex justify-center">
         <a
           href="https://somer.hu"
-          className="inline-block mt-4 px-4 py-2 rounded-md bg-brand text-white hover:bg-brand-dark text-sm"
+          className="inline-block mt-4 px-4 py-2 rounded-md bg-brand text-white hover:bg-brand-dark text-sm shadow-sm"
           target="_blank"
           rel="noopener noreferrer"
         >

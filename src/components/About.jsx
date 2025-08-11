@@ -26,7 +26,7 @@ export default function About() {
       <article className="mt-4 prose prose-slate max-w-none">
         <div dangerouslySetInnerHTML={{ __html: aboutHtml }} />
       </article>
-      <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+  <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
         {GALLERY.about.map((img) => (
           <div key={img.key} className="group cursor-zoom-in" >
             <div
@@ -35,7 +35,7 @@ export default function About() {
               aria-label={img.alt}
               onClick={() => openModal(img)}
               onKeyDown={(e) => onKeyOpen(e, img)}
-              className="aspect-square w-full rounded-md bg-slate-100 border border-slate-200 overflow-hidden shadow-sm transition duration-200 hover:shadow-md hover:border-brand/40"
+      className="aspect-square w-full rounded-xl bg-slate-50 border border-slate-200 overflow-hidden shadow-sm transition duration-200 hover:shadow-md hover:border-brand/40"
             >
               <img
                 src={img.url}

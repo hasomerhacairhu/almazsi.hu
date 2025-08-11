@@ -23,7 +23,7 @@ export default function Activities() {
       <h2 className="text-2xl md:text-3xl font-semibold">Tevékenységünk</h2>
       <div className="mt-6 grid md:grid-cols-2 lg:grid-cols-4 gap-4">
         {ITEMS.map((it) => (
-          <div key={it.title} className="p-4 rounded-lg border border-slate-200 bg-white shadow-sm transition hover:shadow-md">
+          <div key={it.title} className="p-4 rounded-xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md">
             <h3 className="font-semibold">{it.title}</h3>
             <p className="mt-2 text-slate-700 text-sm">{it.desc}</p>
           </div>
@@ -53,7 +53,7 @@ export default function Activities() {
                 aria-label={img.alt}
                 onClick={() => openModal(img)}
                 onKeyDown={(e) => onKeyOpen(e, img)}
-                className="aspect-[4/3] w-full rounded-md bg-slate-100 border border-slate-200 overflow-hidden shadow-sm transition duration-200 hover:shadow-md hover:border-brand/40"
+                className="aspect-[4/3] w-full rounded-xl bg-slate-50 border border-slate-200 overflow-hidden shadow-sm transition duration-200 hover:shadow-md hover:border-brand/40"
               >
                 <img
                   src={img.url}

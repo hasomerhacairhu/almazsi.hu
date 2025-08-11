@@ -4,7 +4,7 @@ import { GALLERY } from '../config/gallery'
 export default function Hero() {
   const heroImg = GALLERY.hero
   return (
-    <div className="relative overflow-hidden bg-gradient-to-br from-brand-light via-teal-100 to-yellow-50">
+    <div className="relative overflow-hidden bg-gradient-to-br from-brand-light via-white to-brand/10">
       <div className="mx-auto max-w-6xl px-4 py-20 md:py-28 grid md:grid-cols-2 lg:grid-cols-5 gap-10 items-center">
         <div className="lg:col-span-2">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight text-slate-900">
